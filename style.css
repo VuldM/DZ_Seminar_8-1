@@ -99,8 +99,6 @@ a {
   text-align: left;
 }
 
-
-
 .of_luxer,
 .fashion {
   font-family: Lato;
@@ -130,7 +128,6 @@ a {
   justify-content: center;
   flex-direction: column;
   padding-top: 50px;
-
 }
 
 .main__block1__1__0 {
@@ -146,8 +143,6 @@ a {
   position: relative;
 }
 
-
-
 .for_woman,
 .for_men,
 .for_kids,
@@ -161,7 +156,6 @@ a {
 .text__for_accesories {
   position: absolute;
   text-align: center;
-
 }
 
 .text__for_woman {
@@ -193,9 +187,7 @@ a {
 .text2 {
   font-family: Lato;
   font-size: 24px;
-  color: #F16D7F;
-
-
+  color: #f16d7f;
 }
 
 .main__block__2 {
@@ -237,7 +229,6 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .main__block__2__img_1 {
@@ -318,7 +309,7 @@ a {
   color: #f26376;
 }
 
-@media(max-width:1167px) and (min-width:1024px) {
+@media (max-width: 1167px) and (min-width: 1024px) {
   .main__block1__1__0 {
     flex-wrap: nowrap;
   }
@@ -333,14 +324,13 @@ a {
     left: 35%;
   }
 
-  .for_men,
+  .text__for_man,
   .text__for_kids {
     left: 38%;
   }
 }
 
-@media(max-width:1024px) and (min-width: 768px) {
-
+@media (max-width: 1024px) and (min-width: 768px) {
   .for_men,
   .for_kids,
   .for_woman {
@@ -361,5 +351,42 @@ a {
 
   .main__block1__1__0 {
     flex-wrap: nowrap;
+  }
+}
+@media (max-width: 767px) {
+  .the_brand {
+    font-size: 32px;
+  }
+  .fashion,
+  .of_luxer {
+    font-size: 24px;
+  }
+  .for_men,
+  .for_kids,
+  .for_woman {
+    max-width: 95%;
+  }
+
+  .text1 {
+    font-size: 12px;
+  }
+
+  .text2 {
+    font-size: 16px;
+  }
+  .text__for_woman {
+    left: 35%;
+  }
+
+  .text__for_man,
+  .text__for_kids {
+    left: 40%;
+  }
+  .text__for_accesories {
+    top: 32%;
+    left: 40%;
+  }
+  .main__block1 {
+    width: 100%;
   }
 }
